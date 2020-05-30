@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+}
+nav {
+    text-align: center;
+}
+
+nav li {
+    list-style: none;
+}
+
+img {
+    max-width: 90%;
+    height: auto;
+}
