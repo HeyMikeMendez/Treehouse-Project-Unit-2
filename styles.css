@@ -243,7 +243,13 @@ a {
     .display-off-nav {
         display: inline-block;
         list-style-type: none;
+    }
 
+    .footer-title {
+        display: inline-block;
     }
     
+    .bottom-nav {
+        display: inline-block;
+    }
 }
