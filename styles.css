@@ -140,10 +140,10 @@ a {
   Footer
 ==================================== */
 
-.footer {
-    width: 90%;
-	margin: 0 auto;
-}
+/* .footer {
+     width: 90%;
+	margin: 0 auto; 
+} */
 
 .footer h3 {
     float: left;
@@ -236,20 +236,76 @@ a {
   Footer
 ==================================== */
 
+    
+    
     .display-off {
         display: none;
     }
 
     .display-off-nav {
-        display: inline-block;
         list-style-type: none;
     }
 
     .footer-title {
-        display: inline-block;
+        text-align: left;
+        padding-left: 20px;
+        margin-top: 0px;
+
     }
     
     .bottom-nav {
+        /* text-align: right; */
+
+    }
+
+    .bottom-nav ul {
+        margin: 0;
+        display: inline-block;
+        /* padding-left: 125px; */
+        text-align: right;
+    }
+
+    .footer-title, 
+    .bottom-nav {
         display: inline-block;
     }
+
+    .bottom-nav li {
+        margin: 0;
+        padding: 0;
+        display: inline-block;
+    }
+
+
+    
+}
+
+
+
+
+/* ================================= 
+  Media Queries
+==================================== */
+@media (min-width: 1025px) {
+
+
+/* ================================= 
+  Header
+==================================== */
+    .main-nav ul,
+    .main-nav li,
+    .title {
+        display: inline-block;
+    }
+
+    .title {
+        float: left;
+        padding-left: 20px;
+    }
+      
+    .main-nav ul {
+        float: right;
+        padding-top: 13px;
+    }
+
 }
