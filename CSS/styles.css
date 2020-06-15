@@ -1,3 +1,5 @@
+
+
 /* ================================= 
   Base Element Styles
 ==================================== */
@@ -7,7 +9,7 @@
 }
 
 body {
-	font-family: 'Varela Round', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     line-height: 1.6;
     margin: 0 auto;
     background-color: rgb(245, 245, 245);
@@ -97,10 +99,6 @@ a {
 
 .portfolio-info p {
     margin: 0px 30px;
-}
-
-.portfolio-info h3 {
-    padding-bottom: ;
 }
 
 .rows,
@@ -280,10 +278,6 @@ a {
     .display-off-nav {
         list-style-type: none;
         text-align: right;
-    }
-
-    .bottom-nav {
-
     }
 
     .bottom-nav li {
